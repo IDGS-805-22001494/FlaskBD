@@ -1,9 +1,9 @@
-from wtforms import Form
-from flask_wtf import FlaskForm
+from wtforms import Form #type:ignore
+from flask_wtf import FlaskForm#type:ignore
  
-from wtforms import StringField,IntegerField
-from wtforms import EmailField
-from wtforms import validators
+from wtforms import StringField,IntegerField#type:ignore
+from wtforms import EmailField#type:ignore
+from wtforms import validators#type:ignore
  
  
 class UserForm(Form):

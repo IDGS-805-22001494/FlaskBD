@@ -1,6 +1,6 @@
-<!-- {% extends "layout.html" %}
+{% extends "layout.html" %}
 
-{% block content %} -->
+{% block content %}
 <style>
     .error-template {
         padding: 40px 15px;
@@ -27,7 +27,7 @@
                     Lo sentimos, la página que buscas no existe.
                 </div>
                 <div class="error-actions">
-                    <a href="{{ url_for('index1') }}" class="btn btn-primary btn-lg">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg">
                         <span class="glyphicon glyphicon-home"></span>
                         Ir al Inicio
                     </a>
@@ -40,4 +40,4 @@
         </div>
     </div>
 </div>
-<!-- {% endblock %} -->
+{% endblock %}
