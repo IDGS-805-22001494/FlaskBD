@@ -4,7 +4,7 @@ import urllib
 
 class Config(object):
     SECRET_KEY='Clave nueva'
-    SESSION_COOKIE_NAME=False
+    SESSION_COOKIE_NAME='FlaskSesion'
 
 class DevelopmentConfig(Config):
     DEBUG=True
